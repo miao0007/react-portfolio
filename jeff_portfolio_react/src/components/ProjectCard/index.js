@@ -9,10 +9,10 @@ function ProjectCard(props) {
   return (
     <Container>
       <div className='row'>
-        <Card className='projectCard'>
+        <Card className='projectCard shadow'>
           <Card.Img
             variant='top'
-            src={process.env.PUBLIC_URL + '/' + props.imgUrl}
+            src={ process.env.PUBLIC_URL + '/' + props.imgUrl}
             alt={props.name}
           />
           <Card.Body>
@@ -26,7 +26,7 @@ function ProjectCard(props) {
                 <Button
                   variant='outline-light btn btn-success'
                   href={props.github}
-                  style={{ alignContent: 'right' }}
+                  style={{ alignContent: 'right'}}
                 >
                   GitHub Repo
                 </Button>

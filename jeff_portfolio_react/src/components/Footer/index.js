@@ -9,7 +9,7 @@ function Footer (){
           <div className="col-md-12  text-center m-2">
             <a className="m-4 p-2" href="https://github.com/miao0007" target="_blank rel=noopener"><img
                 src="https://img.icons8.com/ios-filled/50/000000/github.png"alt="github-icon" /></a>
-            <a className="m-4 p-2" href="https://www.linkedin.com/in/sergio-lopez-81790579/" target="_blank rel=noopener"><img
+            <a className="m-4 p-2" href="https://www.linkedin.com/in/jeff-huichun-miao-b478271a9/" target="_blank rel=noopener"><img
                 src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="linked-icon" /></a>
         
             <a className="m-4 p-2" href="mailto:miao188@hotmail.com?subject=Mail-frommy-Website" target="_blank rel=noopener"><img

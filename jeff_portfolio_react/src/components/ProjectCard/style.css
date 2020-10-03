@@ -23,6 +23,6 @@ p {
     width: 20rem;
     height: 396px;
     background-color: transparent;
-    border-color: white;
+    border:3px solid rgb(48, 79, 87);
 
 }
