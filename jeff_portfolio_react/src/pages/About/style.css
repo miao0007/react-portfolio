@@ -1,0 +1,27 @@
+.my-photo {
+    border-radius: 8px;
+    width: 320px;
+    float: left;
+    margin: 10px
+}
+.a-h1{
+    color: whitesmoke;
+    font-size: 4rem;
+}
+.a-p1{
+    color: whitesmoke;
+    font-family: 'Signika', sans-serif;
+    font-size: 2.5rem;
+}
+
+.p-text{
+    color: white;
+    font-family: 'Signika', sans-serif;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.my-name { 
+    color:yellow;
+    
+}

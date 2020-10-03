@@ -1,0 +1,16 @@
+.nav-color{
+  background-color: #fdb813;
+  background-image: linear-gradient(315deg, #fdb813 0%, #788cb6 74%);
+}
+
+.title-font, .item-text{
+
+  font-family: 'Righteous', cursive;
+  font-size: 22px;
+}
+
+.title-email {
+  font-size: 16px;
+  color: #d8dce4;
+  
+}

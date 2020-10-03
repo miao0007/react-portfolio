@@ -55,6 +55,11 @@ nav ul li
   margin:40px;
 }
 
+.active
+{
+font-weight: bolder;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
