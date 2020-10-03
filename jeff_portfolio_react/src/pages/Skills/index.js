@@ -13,11 +13,23 @@ function Skills (){
             </div>
 
             <div className="container">
-            <h3 className="titleSkill">Languages</h3>
-            <p className="subtitle">JavaScript, Python, ES6, Cascading Style Sheets (CSS), HTML5.</p>
+            <h3 className="titleSkill">The Browser</h3>
+            <p className="subtitle">HTML, CSS, JavaScript, JQuery, Bootstrap</p>
 
-            <h3 className="titleSkill">Applications</h3>
-            <p className="subtitle"> AJAX, API, Bootstraps, Express.js, Git, GitHub, Heroku, jQuery, JSON, Node.js, Object-oriented Programming (OOP), Rest API, SQL, React, JSX, Mongo DB, Mongoose ODM, MySQL, ORM, Sequelize.</p>
+            <h3 className="titleSkill">Dev Tools</h3>
+            <p className="subtitle">Heroku, Git, Github</p>
+
+            <h3 className="titleSkill">API Interaction</h3>
+            <p className="subtitle">APIs, JSON, AJAX, Real Time Cloud Database via Firebase</p>
+
+            <h3 className="titleSkill">Cutting Edge Development</h3>
+            <p className="subtitle">React.js</p>
+
+            <h3 className="titleSkill">Databases</h3>
+            <p className="subtitle">MySQL, MongoDB</p>
+
+            <h3 className="titleSkill">Server Side</h3>
+            <p className="subtitle">Templating Engines, Sessions, Writing tests, Node.js, Express.js, Creating APIs, MVC, User Authentication, ORM (Sequelize)</p>
             <br />
             </div>
 
