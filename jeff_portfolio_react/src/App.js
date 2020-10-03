@@ -16,10 +16,10 @@ function App() {
       <Navbar />
       <br />
       <Wrapper>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
-      <Route exact path="/projects" component={Project} />
-      <Route exact path="/skills" component={Skills} />
+      <Route exact path="/React-Portfolio/" component={Home} />
+      <Route exact path="/React-Portfolio/About" component={About} />
+      <Route exact path="/React-Portfolio/Project" component={Project} />
+      <Route exact path="/React-Portfolio/Skills" component={Skills} />
       </Wrapper>
       <br/>
       <Footer  />

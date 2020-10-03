@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css"
 
 function Skills (){
@@ -6,16 +7,16 @@ function Skills (){
         <div>
             <div className="jumbotron jumbotron-fluid j-color">
                 <div className="container text-center">
-                    <h1 className="font-weight-bolder title-font ah1"> Technical Skills</h1>
-                    {/* <p className="ap1">Take a look to the work that I have done!</p> */}
+                    <h1 className="font-weight-bolder title-font a-h1"> Technical Skills</h1>
+                   
                 </div>    
             </div>
 
-            <div className="container bjdk">
-            <h3 className="titleSk">Languages</h3>
+            <div className="container">
+            <h3 className="titleSkill">Languages</h3>
             <p className="subtitle">JavaScript, Python, ES6, Cascading Style Sheets (CSS), HTML5.</p>
 
-            <h3 className="titleSk">Applications</h3>
+            <h3 className="titleSkill">Applications</h3>
             <p className="subtitle"> AJAX, API, Bootstraps, Express.js, Git, GitHub, Heroku, jQuery, JSON, Node.js, Object-oriented Programming (OOP), Rest API, SQL, React, JSX, Mongo DB, Mongoose ODM, MySQL, ORM, Sequelize.</p>
             <br />
             </div>

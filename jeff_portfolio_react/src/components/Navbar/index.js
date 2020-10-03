@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PDF from "../../document/resume .pdf";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style.css";
 
 function Navbar() {
@@ -24,19 +25,19 @@ function Navbar() {
                     <li className
                         ="nav-item text-white item-text">
                         <Link className
-                            ="nav-link " to="/React-Portfolio/about"><span className
+                            ="nav-link " to="/React-Portfolio/About"><span className
                                 ="text-white">About</span></Link>
                     </li>
                     <li className
                         ="nav-item text-white item-text">
                         <Link className
-                            ="nav-link" to="/React-Portfolio/portfolio"><span className
+                            ="nav-link" to="/React-Portfolio/Project"><span className
                                 ="text-white">Portfolio</span></Link>
                     </li>
                     <li className
                         ="nav-item text-white item-text">
                         <Link className
-                            ="nav-link" to="/React-Portfolio/skills"><span className
+                            ="nav-link" to="/React-Portfolio/Skills"><span className
                                 ="text-white">Skills</span></Link>
                     </li>
                     <li className

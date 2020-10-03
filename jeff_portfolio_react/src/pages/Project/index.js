@@ -1,21 +1,29 @@
 import React from 'react';
 // import Col from '../components/Col';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import projects from '../../projects.json';
 import ProjectCard from '../../components/ProjectCard';
 
-function Projects() {
+function Project() {
   return (
     <div>
+       <div className="jumbotron jumbotron-fluid j-color">
+                <div className="container text-center">
+                    <h1 className="font-weight-bolder title-font a-h1"> My Projects</h1>
+                   
+                </div>    
+            </div>
       <Container className='pt-5'>
-        <h1 className='pb-3'> Projects </h1>
+        
         <Row>
           {projects.map(project => (
             <Col size='sm-12 md-6 lg-4' key={project.name}>
               <ProjectCard
+              imgUrl={project.imgUrl}
                 name={project.name}
                 description={project.description}
-                imgUrl={project.imgUrl}
+                
                 github={project.github}
                 link={project.link}
               />
@@ -27,4 +35,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Project;

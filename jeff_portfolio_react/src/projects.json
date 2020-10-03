@@ -1,44 +1,44 @@
 [
     {
-      "name": "Mothra",
-      "description": "Mothra is a project planning application inspired by JIRA. Mothra uses JavaScript, Node, Express, Handlebars, and mySQL to allow users to create, update and delete tasks and projects.",
-      "imgUrl": "images/mothra.png",
-      "link": "https://the-best-project-manager.herokuapp.com/",
-      "github": "https://github.com/maximilianc88/Project-Planner-Application"
+      "name": "Music App",
+      "description": "We have created a music application that plays a song based upon responses to questions.",
+      "imgUrl": "./img/music_app.png",
+      "link": " https://miao0007.github.io/music-app/",
+      "github": "https://github.com/miao0007/music-app"
     },
     {
-      "name": "(React) Google Books Search",
-      "description": "React-based Google Books Search app using the Google Books API. The user can navigate to the book on the Google Play Store and create a saved books list.",
-      "imgUrl": "images/googleBooks.jpg",
-      "link": "https://fast-tundra-68220.herokuapp.com/",
-      "github": "https://github.com/rachelrohrbach/google-books-search"
+      "name": "Weather-Dashboard",
+      "description": "The aim of this web application is to retrieve weather data for cities by using the OpenWeather API, the challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+      "imgUrl": "./img/weather_dash.png",
+      "link": "https://miao0007.github.io/weather-dashboard/",
+      "github": "https://github.com/miao0007/weather-dashboard"
     },
     {
-      "name": "React Employee Directory",
-      "description": "An employee directory created with React. It allows the user to view, sort, and search for employee information including an image, first and last name, phone number, email and date of birth in a table format.",
-      "imgUrl": "images/reactEmployee.png",
-      "link": "https://rachelrohrbach.github.io/react-employee-directory/",
-      "github": "https://github.com/rachelrohrbach/react-employee-directory"
+      "name": "Code_Quiz",
+      "description": "A online quiz application idea",
+      "imgUrl": "./img/quiz.png",
+      "link": "https://miao0007.github.io/code_quiz/",
+      "github": "https://github.com/miao0007/code_quiz"
     },
     {
-      "name": "Devour the Burgers",
-      "description": "Devour the Burgers is an interactive application built with a custom ORM utilizing the MVC design pattern. Users can create, devour and re-make burgers.",
-      "imgUrl": "images/burgers.png",
-      "link": "https://evening-bayou-25102.herokuapp.com/",
-      "github": "https://github.com/rachelrohrbach/burger"
+      "name": "Team-Template-Engine",
+      "description": "The aim is to build a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns.",
+      "imgUrl": "./img/teamPage.png",
+      "link": "https://drive.google.com/file/d/1lhG-Z7Vljebt4cZBZi50eNckJ-ADZPjc/view?usp=sharing",
+      "github": "https://github.com/miao0007/team-template-engine"
     },
     {
-      "name": "Employee Tracker",
-      "description": "A command-line application that makes it easy for non-developers to view and interact with information stored in a database. With Employee Tracker the user manages a company's employees using an interface that works with NodeJS, express, inquirer, and MySQL.",
-      "imgUrl": "images/employeeTracker.png",
-      "link": "https://github.com/rachelrohrbach/employee-tracker",
-      "github": "https://github.com/rachelrohrbach/employee-tracker"
+      "name": "Burger-Blogger",
+      "description": "To create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM . Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.",
+      "imgUrl": "./img/burger.png",
+      "link": "https://warm-hollows-28275.herokuapp.com/",
+      "github": "https://github.com/miao0007/burger"
     },
     {
-      "name": "Adopt-A-Pet",
-      "description": "This project is an animal adoption search and pet resources mapping application. It takes in user input to search the RescueGroups.org API for cats or dogs that are available for adoption from adoption agencies.",
-      "imgUrl": "images/pet.png",
-      "link": "https://rachelrohrbach.github.io/pet-adoption/",
-      "github": "https://github.com/rachelrohrbach/pet-adoption"
+      "name": "Pokemon-Love-Calculator",
+      "description": "As a single person and lover of Pokémon: I want to search the compatibility of my name with that of a potential partner. I would then like the potential relationship rated in relation to a Pokémon I know. I would also like to know some of the most compatible names. This is so I can have fun investigating my compatibility with different people, and have a laugh at the same time.",
+      "imgUrl": "./img/pokeLove.png",
+      "link": "https://powerful-mountain-92684.herokuapp.com/",
+      "github": "https://github.com/miao0007/Professor-Oak-s-Pokemon-Love-Calculator"
     }
   ]
