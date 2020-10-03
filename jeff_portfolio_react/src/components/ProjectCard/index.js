@@ -20,11 +20,11 @@ function ProjectCard(props) {
             <Card.Text>
               <p> {props.description}</p>
               <div className='links'>
-                <Button variant='outline-light' href={props.link}>
+                <Button variant='outline-light btn btn-primary' href={props.link}>
                   Deployed App
                 </Button>
                 <Button
-                  variant='outline-light'
+                  variant='outline-light btn btn-success'
                   href={props.github}
                   style={{ alignContent: 'right' }}
                 >
