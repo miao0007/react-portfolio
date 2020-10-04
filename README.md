@@ -39,8 +39,8 @@ Email: miao188@hotmail.com
 ### Web Page
 Header
 
-![Alt summary page](./jeff_portfolio_react/src/img/navbar.png)
+![Alt summary page](./src/img/navbar.png)
 
 Footer
 
-![Alt summary page](./jeff_portfolio_react/src/img/footer1.png)
+![Alt summary page](./src/img/footer1.png)
