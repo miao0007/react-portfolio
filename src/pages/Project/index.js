@@ -1,5 +1,5 @@
 import React from 'react';
-// import Col from '../components/Col';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import projects from '../../projects.json';
@@ -20,10 +20,9 @@ function Project() {
           {projects.map(project => (
             <Col size='sm-12 md-6 lg-4' key={project.name}>
               <ProjectCard
-              imgUrl={project.imgUrl}
                 name={project.name}
                 description={project.description}
-                
+                imgUrl={project.imgUrl}
                 github={project.github}
                 link={project.link}
               />

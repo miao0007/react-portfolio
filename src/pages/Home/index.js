@@ -22,7 +22,7 @@ function Home() {
                         </div>
                         <div className="col-6 text-right plink">
                             <Link to="/React-Portfolio/Portfolio" className="thisLink">
-                                <h1 className="subh1">Portfolio</h1>
+                                <h1 className="sub-h1">Portfolio</h1>
                             </Link>
                             <p className="sub-p">Take a look to the work that I have done!</p>
                         </div>

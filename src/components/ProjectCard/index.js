@@ -12,7 +12,7 @@ function ProjectCard(props) {
         <Card className='projectCard shadow'>
           <Card.Img
             variant='top'
-            src={ process.env.PUBLIC_URL + '/' + props.imgUrl}
+            src={props.imgUrl}
             alt={props.name}
           />
           <Card.Body>
@@ -36,6 +36,7 @@ function ProjectCard(props) {
         </Card>
       </div>
     </Container>
+    
   );
 }
 
