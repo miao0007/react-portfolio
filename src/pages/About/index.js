@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import photo from "../../img/my_pic1.jpg";
+// import photo from "../../img/my_pic1.jpg";
 
 
 function About() {
@@ -17,7 +17,7 @@ function About() {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <img src={photo} className="my-photo" alt="about-me" />
+                            <img src={process.env.PUBLIC_URL + "/img/my_pic1.jpg"} className="my-photo" alt="about-me" />
                             <p className="p-text">Hi! My Name is <span className="font-weight-bold my-name">Jeff Miao </span>, welcome to my personal page.</p>
                             <p className="p-text">Aspiring Full Stack Developer currently enrolled in the University of Adelaide Coding Boot Camp with a passion for making responsive ,user-friendly websites.</p>
                             <p className="p-text">I am well-organized and collaborative with a strong ethic, and a passion for continuous learning. I am looking forward to the opportunity to apply my skills as a front-end or full-stack web developer. </p>

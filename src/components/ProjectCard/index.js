@@ -2,17 +2,21 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
 function ProjectCard(props) {
   return (
     <Container>
+      
       <div className='row'>
-        <Card className='projectCard shadow'>
+       
+        <Card className='projectCard'>
           <Card.Img
-            variant='top'
-            src={props.imgUrl}
+            variant='top' 
+            src={process.env.PUBLIC_URL + props.imgUrl}
+            // src = "../../img/music_app.png" 
             alt={props.name}
           />
           <Card.Body>

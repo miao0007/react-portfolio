@@ -14,14 +14,14 @@
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
     word-wrap: break-word;
     color: white;
 }
 
 .projectCard {
-    width: 20rem;
-    height: 396px;
+    width: 30rem;
+    height: 45rem;
     background-color: transparent;
     border:3px solid rgb(48, 79, 87);
 
