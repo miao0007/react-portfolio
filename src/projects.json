@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Music App",
-      "technology":"",
+      "technology":"AJAX,Foundation, Tenor API, YouTube API, MusixMatch API, Moment.js",
       "description": "We have created a music application that plays a song based upon responses to questions.",
       "imgUrl": "/img/music_app.png",
       "link": " https://miao0007.github.io/music-app/",
@@ -11,6 +11,7 @@
     {
       "id": 2,
       "name": "Weather-Dashboard",
+      "technology":"OpenWeatherMap API, localStorage, Moment.js, Bootstrap",
       "description": "The aim of this web application is to retrieve weather data for cities by using the OpenWeather API, the challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
       "imgUrl": "/img/weather_dash.png",
       "link": "https://miao0007.github.io/weather-dashboard/",
@@ -19,6 +20,7 @@
     {
       "id": 3,
       "name": "Code_Quiz",
+      "technology":"jQuery, DOM, Mobile Responsive",
       "description": "A online quiz application idea",
       "imgUrl": "/img/quiz.png",
       "link": "https://miao0007.github.io/code_quiz/",
@@ -27,6 +29,7 @@
     {
       "id": 4,
       "name": "Team-Template-Engine",
+      "technology":"Node CLI, TDD with Jest",
       "description": "The aim is to build a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns.",
       "imgUrl": "/img/teamPage.png",
       "link": "https://drive.google.com/file/d/1lhG-Z7Vljebt4cZBZi50eNckJ-ADZPjc/view?usp=sharing",
@@ -35,6 +38,7 @@
     {
       "id": 5,
       "name": "Burger-Blogger",
+      "technology":"MySQL, Node, Express.js, Handlebars, ORM, MVC",
       "description": "To create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM . Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.",
       "imgUrl":"/img/burger.png",
       "link": "https://warm-hollows-28275.herokuapp.com/",
@@ -43,9 +47,19 @@
     {
       "id": 6,
       "name": "Pokemon-Love-Calculator",
+      "technology":"Heroku, Schema, GET/POST, Sequelize, Eslint, Travis, Love-Calculator API, Pokémon API",
       "description": "Type your first and last name into the first box, then your potential romantic match's into the second box, then click the search button! Your compatability Pokemon will appear below. You can also click to see the highest compatibility scores achieved on the app.",
       "imgUrl": "/img/pokeLove.png",
       "link": "https://powerful-mountain-92684.herokuapp.com/",
       "github": "https://github.com/miao0007/Professor-Oak-s-Pokemon-Love-Calculator"
+    },
+    {
+      "id": 7,
+      "name": "Google-Books-Search",
+      "technology":"React.js, MongoDB, Express.js, Node.js",
+      "description": "React-based Google Books Search app that displays books on user searches. Users can save them to review.or delete saved items",
+      "imgUrl": "/img/search_page.png",
+      "link": "https://gbs-jeff.herokuapp.com/",
+      "github": "https://github.com/miao0007/google-books-search"
     }
   ]

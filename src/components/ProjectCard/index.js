@@ -22,7 +22,8 @@ function ProjectCard(props) {
           <Card.Body>
             <Card.Title className='text-center'>{props.name}</Card.Title>
             <Card.Text>
-              <p> {props.description}</p>
+              <p className = 'desc'> {props.description}</p>
+              <p className = 'tech'><span className='tech-title'>Technologies:</span> {props.technology}</p>
               <div className='links'>
                 <Button variant='outline-light btn btn-primary' href={props.link}>
                   Deployed App

@@ -10,18 +10,28 @@
 }
 
 .card-title {
-    color: white;
+    color: #f40;
+    font-size: 26px;
 }
 
-p {
+p .desc {
     font-size: 20px;
     word-wrap: break-word;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+p .tech{
+    font-size: 20px;
+    
+    color:rgb(241, 241, 166);
+}
+
+.tech-title {
+font-weight: bold;
 }
 
 .projectCard {
-    width: 30rem;
-    height: 45rem;
+    width: 32rem;
+    height: 50rem;
     background-color: transparent;
     border:3px solid rgb(48, 79, 87);
 

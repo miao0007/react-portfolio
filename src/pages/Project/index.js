@@ -22,6 +22,7 @@ function Project() {
               <ProjectCard
                 name={project.name}
                 description={project.description}
+                technology = {project.technology}
                 imgUrl={project.imgUrl}
                 github={project.github}
                 link={project.link}

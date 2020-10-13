@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PDF from "../../document/resume .pdf";
+// import PDF from "../../document/resume.pdf";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 
@@ -40,7 +40,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item text-white item-text">
-            <Link className="nav-link" to={PDF} target="_blank">
+            <Link className="nav-link" to = {process.env.PUBLIC_URL + "/document/resume.pdf"} target = "_blank">
               <span className="text-white">Resume</span>
             </Link>
           </li>
