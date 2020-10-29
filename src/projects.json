@@ -61,5 +61,14 @@
       "imgUrl": "/img/search_page.png",
       "link": "https://gbs-jeff.herokuapp.com/",
       "github": "https://github.com/miao0007/google-books-search"
+    },
+    {
+      "id": 8,
+      "name": "Reader_Tribe",
+      "technology":"React.js, MongoDB, Express.js, Node.js, Semantic UI React, Passport",
+      "description": "This MERN Stack project is for those book-lovers to find out books to read and users can post topics or opinions what they want to share or discuss with other members.",
+      "imgUrl": "/img/landing.png",
+      "link": "https://reader-tribe.herokuapp.com/",
+      "github": "https://github.com/miao0007/final-project-mern"
     }
   ]
